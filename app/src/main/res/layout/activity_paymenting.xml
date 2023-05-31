@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentingActivity"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#F2EFD2">
+
+    <ImageView
+        android:id="@+id/paymentImageview"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/border"
+        android:src="@drawable/emblem_08"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="카드/현금을"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="투입구에 넣어주세요"
+        android:textSize="30sp"/>
+
+</LinearLayout>
